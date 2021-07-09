@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.appStoreCont {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.appStoreHead {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768 px) {
+  .appStoreHead {
+    font-size: 40px;
+  }
+}
+
+.searchCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchInp {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+}
+
+.searchImg {
+  width: 24px;
+  height: 24px;
+}
+
+.tabs-list {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: 32px;
+}
+
+.appCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0px;
+}
